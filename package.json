@@ -1,0 +1,20 @@
+{
+  "name": "dev-fbatch14abril",
+  "version": "1.0.0",
+  "description": "repositorio del batch 14",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "suma" : "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHELIO1902/dev-FBatch14Abril.git"
+  },
+  "author": "rogelio dominguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CHELIO1902/dev-FBatch14Abril/issues"
+  },
+  "homepage": "https://github.com/CHELIO1902/dev-FBatch14Abril#readme"
+}

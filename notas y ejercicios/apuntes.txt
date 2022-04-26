@@ -1,0 +1,23 @@
+node.js 25/04/2022
+
+-es un entorno de ejecucion de javaScript del lado del servidor
+
+-la compilación siempre va a ser mas eficiente que la interpretacion, por que la compilación ya tiene un archivo ejecutable en binario.
+
+-un cliente es un software que se va a hacer peticiones a varios servidores y estos le van a proporcionar o no data de regreso (data como respuesta)
+caracteristicas del cliente:
+interfaz grafica como un navegador
+
+
+
+npm init -y (genera el archivo dando si a todo)
+
+buscar comandos de linux o sistema de archivos
+
+NPM (node package manager)
+gestor de paquetes de node.js
+
+jSon: no estan de clarados solo tienen brackets y las keys tiene comillas dobles a diferencia de un objeto que tiene que estar declarado ya sea una funcion o una variable
+
+npm run (nos sirve para ejecutar un script dentro de un json mandando a llamar al archivo (node ./src llamar al archivo js desde el JSON
+))
