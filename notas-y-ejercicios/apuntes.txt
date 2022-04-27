@@ -9,7 +9,6 @@ caracteristicas del cliente:
 interfaz grafica como un navegador
 
 
-node ./src llamar al archivo js desde el JSON
 
 npm init -y (genera el archivo dando si a todo)
 
@@ -19,3 +18,15 @@ NPM (node package manager)
 gestor de paquetes de node.js
 
 jSon: no estan de clarados solo tienen brackets y las keys tiene comillas dobles a diferencia de un objeto que tiene que estar declarado ya sea una funcion o una variable
+
+npm run (nos sirve para ejecutar un script dentro de un json mandando a llamar al archivo (node ./src llamar al archivo js desde el JSON
+))
+
+npx json-server "sirve para ejecutar el JSON-server de manera local"
+
+--git bash
+git log: revisar los commits realizados
+
+
+
+---JS async
