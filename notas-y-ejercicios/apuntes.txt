@@ -4,13 +4,13 @@ node.js 25/04/2022
 
 -la compilación siempre va a ser mas eficiente que la interpretacion, por que la compilación ya tiene un archivo ejecutable en binario.
 
--un cliente es un software que se va a hacer peticiones a varios servidores y estos le van a proporcionar o no data de regreso (data como respuesta)
+-un cliente es un software que va a hacer peticiones a varios servidores y estos le van a proporcionar o no data de regreso (data como respuesta)
 caracteristicas del cliente:
 interfaz grafica como un navegador
 
 
 
-npm init -y (genera el archivo dando si a todo)
+npm init -y (genera el archivo dando si a todo) crea un .JSON donde podemos trabajar con ello
 
 buscar comandos de linux o sistema de archivos
 
@@ -27,6 +27,97 @@ npx json-server "sirve para ejecutar el JSON-server de manera local"
 --git bash
 git log: revisar los commits realizados
 
-
-
 ---JS async
+=HILO DE EJECUCIÓN
+dependen del procesador (CPU)
+javaScript usa hilos de ejecucion para hacer procesos
+
+=SINCRONO Y ASINCRONO
+-Sincrono: operacion que se ejecuta de manera secuencial y por lo tanto debemos esperar para procesar el resultado, las tareas van una a una como si fuese una carretera
+
+-Asincrono: la finalizacion de la operacion es notificada al programa principal, el proceso de la respuesta se hará en algun momento futuro
+
+=CALLBACKS (llamada de vuelta)
+-es una funcion que recibe como parametro otra funcion y la ejecuta
+-se usan para hacer consultas a bases de datos
+-pueden solucionar problemas de flujo de una aplicacion
+-si se usa demasiado se puede caer en una definicion de 
+"callback hell"
+
+=setTimeout:
+ejecuta una funcion solo una vez en un tiempo determinado en milisegundos
+
+=setInterval:
+ejecuta una funcion las veces que se le solicita con una condicion de salida en los intervalos de tiempo especificados (N cantidad de veces cada determinado tiempo)
+
+=EVENT LOOP
+-posee un modelo de concurrencia basado en un loop de eventos
+-una pila es una estructura de datos que va a enlistar datos/procesos
+
+proceso LIFO: "last in firts out"
+
+-cola deejecucion:
+es como una sala de espera para funciones que estan retrasadas o suproceso tarda demasiado
+el primero que llegue es el primero que va a salir
+
+-pila de ejecucion:
+estructura que accede a la ejecucion de una funcion
+
+-interfas:
+Es un conjunto de rutinas que provee acceso a funciones de un determinado software.
+
+
+
+De Emilio Parra González para todos 09:18 PM
+Ahora uso el OperaGx pa gamers
+De Gilberto Cervantes para todos 09:18 PM
+Netscape
+
+
+API REST: es un software que va a servir a otros software, normalmente clientes data(json, xml) o servicios web
+
+AJAX- peticiones de cliente
+
+==arquitectura cliente servidor
+-el cliente va a ser el navegador
+
+==servidores:
+-de base de datos 
+-de correos electronicos
+-de imagenes
+-WEB
+
+
+==API
+interfas de programacion que permiten que otros sisteman interactuen y se comuniquen con otros productos y servicios
+interfaz de progrmacion de aplicaciones
+=END POINT BUSCAR Y ESTUDIAR
+
+==GET
+pedir datos al servidor
+
+==PUT
+altualiza todo
+
+==PATCH
+actualiza datos en especifico en el servidor
+
+
+==HEADER
+es un campo en el que colocamos configuraciones, permisos...
+
+==BODY
+ahi se encuentra la data
+
+peticion/REQUEST
+respuesta/RESPONSE
+
+===Gestion de modulos
+
+con nvm puedes tener las versiones que quieras. Si descargas node de nuevo, solo tendrás la última 
+Recuerden ES M Y Common JS, sirven para exportar e importar archivos js entre sì. La diferencia màs notable, es la sintaxis màs amigable de ES M. Poco a poco, node js està cambiando la sintaxis de require('ruta'), por la de import 'ruta'
+
+
+
+===PROMESAS===
+
