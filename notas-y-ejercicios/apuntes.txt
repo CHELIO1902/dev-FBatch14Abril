@@ -96,6 +96,9 @@ interfaz de progrmacion de aplicaciones
 ==GET
 pedir datos al servidor
 
+==POST
+
+
 ==PUT
 altualiza todo
 
@@ -121,3 +124,83 @@ Recuerden ES M Y Common JS, sirven para exportar e importar archivos js entre s�
 
 ===PROMESAS===
 
+es una forma de garantizar una respuesta de un callback
+
+-Flujo de estados de una promesa
+-pendiente
+-resuelta
+-rechazada
+
+llamados a API front-end y back-end
+llamados a bases de datos back-end
+
+Podemos ejecutar una promesa por medio de los metodos then y catch
+
+comentarios profe {
+-todo lo que se ejecuta, va en try(intenta). Si hay un error, se salta el try y 'cacha' el error, entonces, se ejecuta esa parte del code
+
+-el temporizador lo usábamos para ejemplificar el asincronismo. No tiene por què ir en callbacks, promesas, etc. Solo fue usado como ejemplo
+
+-operador ternario:  (condicion) ? si se cumple , haz esto :  si no, ejecuta este código de aquì
+
+-fetch hace peticiones como xmlhttprquest, pero està basado en promesas
+
+-Notas: Express, se utiliza para "levantar" un servidor en su computadora(local), además nos ayuda a crear APIs. Con el definimos nuestros "endpoints". Por ejemplo: http://localhost:3000/usuarios. También podemos crear acciones para la API, con los verbos HTTP: GET, POST, PUT, PATCH, DELETE, etc
+
+recuerden que el endpoint, es después de su URL base y se representa con una diagonal y el nombre. Ejemplo: /usuarios, /posts, /algunaCosa
+nodemon, es el equivalente del live server que usamos siempre pero para el backend
+
+ajax significa peticiones HTTP
+
+un error 400 significa que nosotros como usuarios hicimos una peticion incorrecta
+}
+
+levantar un servidor con json.server:
+json-server rutadetuArchivoJson
+
+links para el proyecto {
+
+  https://jsonplaceholder.typicode.com/
+
+  https://pokeapi.co/
+
+  https://swapi.dev/
+
+  https://www.fbi.gov/wanted/api
+
+  https://api.nasa.gov/
+
+  https://rickandmortyapi.com/
+
+}
+
+team {
+  genesis alejandra // chile
+  juan pablo niño // Bogota Colombia
+
+}
+
+hackerrank
+freecodecamp
+primero siéntete cómodo con arreglos y objetos
+bubble, quick sort, mergeSort
+
+material design google
+design systems
+design patterns
+
+
+
+para no estar haciendo muchos append o create element
+se puede usar esta variable:
+ejemplos de variables para recibir html
+--let template = `<li class="stats-container">hola</li>`
+
+--let template = `<li>hola</li>`
+
+container.append(template)
+
+
+buscar: como optimizar el dem
+
+https://www.sommelierdecafe.com/2019/wp-content/uploads/2010/09/grupo-marrano.jpg

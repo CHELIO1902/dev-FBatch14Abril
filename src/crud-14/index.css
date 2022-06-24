@@ -1,0 +1,9 @@
+.navbar {
+  background-color: lightblue;
+}
+
+#display-json {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}

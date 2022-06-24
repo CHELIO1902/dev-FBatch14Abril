@@ -8,19 +8,33 @@
 // }
 
 // module.exports.info= info
+usuarios.js
 
-module.exports =  {
+'use strict'
+
+module.exports = {
   usuarioSinc(id) {
     const tiempoInicio = new Date().getTime();
-    while (new Date().getTime() - tiempoInicio <= 3000)
-    /esperando
-  }
+    console.log('JEJEJE ', 5 + id);
+    while ((new Date().getTime() - tiempoInicio) <= 3000) {
+      // Esperando
+    }
 
-  return {
-    "id": id,
-    "nombre": `Usuario ${id}`
-  }
-},
-usuarioAsinc(id){
-  console.log('jajaja');
+    return {
+      "id": id,
+      "nombre": `Usuario ${id}`
+    }
+  },
+
+  usuarioAsinc(id, callback) {
+    const usuario = {
+      "id": id,
+      "nombre": `Usuario ${id}`
+    }
+
+    console.log('JAJAAJ ', 5+id);
+    setTimeout(() => {
+      callback(usuario)
+    }, 3000);
+  },
 }
